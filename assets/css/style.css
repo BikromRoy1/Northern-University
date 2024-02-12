@@ -107,7 +107,8 @@ textarea {
   background-color: #f4f6f9;
 }
 .top-header-area {
-  background-color: #e32845;
+  /* background-color: #e32845; */
+  background-color: #0F5586;
   padding-top: 15px;
   padding-bottom: 15px;
 }
