@@ -1415,7 +1415,7 @@ textarea {
 }
 .read-more-btn i {
   position: relative;
-  top: 3px;
+  top: 1px;
   padding-left: 7px;
 }
 .read-more-btn:hover {
@@ -2190,7 +2190,7 @@ textarea {
   margin-bottom: 30px;
 }
 .campus-content .campus-title {
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 .campus-content .campus-title h2 {
   font-size: 40px;
@@ -5249,3 +5249,7 @@ textarea {
   color: #e60808;
   padding-top: 7px;
 }
+
+
+
+/* About us new css file */
