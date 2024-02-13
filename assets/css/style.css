@@ -108,7 +108,7 @@ textarea {
 }
 .top-header-area {
   /* background-color: #e32845; */
-  background-color: #3D409A;
+  background-color: #3d409a;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -1746,7 +1746,7 @@ textarea {
 }
 .single-academics-card {
   padding: 30px;
-  background-color: #f4f6f9;
+  background-color: #213153;
   margin-bottom: 30px;
   transition: all ease 0.5s;
 }
@@ -1758,6 +1758,10 @@ textarea {
 .single-academics-card .academic-top-content h3 {
   font-size: 22px;
   transition: all ease 0.5s;
+  color: #fff;
+}
+.academics-white {
+  color: #fff;
 }
 .single-academics-card .academic-top-content h3:hover {
   color: #e32845;
@@ -5250,12 +5254,10 @@ textarea {
   padding-top: 7px;
 }
 
-
-
 /* About us new css file */
 #about-NUB .left-side-about-image {
   border-radius: 8px;
-  box-shadow: -15px 15px 0px 0px rgba(61, 64, 154, 0.80);
+  box-shadow: -15px 15px 0px 0px rgba(61, 64, 154, 0.8);
 }
 #about-NUB .left-side-about-image img {
   border-radius: 8px;
