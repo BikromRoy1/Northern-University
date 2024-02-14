@@ -1122,7 +1122,7 @@ textarea {
   position: fixed;
   z-index: 999999;
   /* background-color: #e32845; */
-  background-color: #3D409A;
+  background-color: #3d409a;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -3869,6 +3869,13 @@ textarea {
 }
 .single-podcasts-card.style2 .podcasts-image {
   position: relative;
+  overflow: hidden;
+}
+.single-podcasts-card.style2 .podcasts-image img {
+  transition: all ease 0.5s;
+}
+.single-podcasts-card.style2:hover .podcasts-image img{
+  transform: scale(1.15);
 }
 .single-podcasts-card.style2 .podcasts-image .play-btn {
   height: 45px;
@@ -5316,7 +5323,8 @@ textarea {
 /* partner University Section */
 .emergency-serv-card {
   text-align: center;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   background-color: #fff;
   border: 4px solid white;
   transition: all 0.3s ease-in-out 0s;
@@ -5332,6 +5340,7 @@ textarea {
   /* width: 200px; */
   transition: all 0.5s ease-in-out 0s;
   object-fit: fill;
+  overflow: hidden;
   transform: scale(1);
 }
 .emergency-serv-card:hover a img {
