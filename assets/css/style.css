@@ -1121,7 +1121,8 @@ textarea {
 .preloader-area {
   position: fixed;
   z-index: 999999;
-  background-color: #e32845;
+  /* background-color: #e32845; */
+  background-color: #3D409A;
   width: 100%;
   height: 100%;
   text-align: center;
