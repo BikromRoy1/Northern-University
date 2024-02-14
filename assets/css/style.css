@@ -1799,13 +1799,13 @@ textarea {
   top: 0;
 }
 .single-academics-card2.bg-1 {
-  background-image: url(../images/academics/academic-1.jpg);
+  background-image: url(../images/academics/academic-01.jpg);
 }
 .single-academics-card2.bg-2 {
-  background-image: url(../images/academics/academic-2.jpg);
+  background-image: url(../images/academics/academic-02.jpg);
 }
 .single-academics-card2.bg-3 {
-  background-image: url(../images/academics/academic-3.jpg);
+  background-image: url(../images/academics/academic-03.jpg);
 }
 .single-academics-card2 .serial {
   position: absolute;
