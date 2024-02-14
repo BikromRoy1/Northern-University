@@ -5262,3 +5262,52 @@ textarea {
 #about-NUB .left-side-about-image img {
   border-radius: 8px;
 }
+
+/* Notice file css */
+.notice-items {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notice-date {
+  margin-right: 20px;
+  text-align: center;
+}
+.notice-date .date {
+  background: #E32845;
+  color: #fff;
+  /* width: 150px; */
+}
+.notice-date .date h4 {
+  font-size: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.notice-date .Years {
+  background: #002f50;
+  color: #fff;
+}
+.notice-date .Years h5 {
+  font-size: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.notice-text h4 {
+  color: rgb(17, 29, 94);
+  font-weight: 700;
+  font-size: 18px;
+}
+.notice-text a {
+  font-family: var(--font-secondary);
+  color: #E32845;
+  font-size: 15px;
+}
